@@ -9,5 +9,9 @@ class Square extends Shape {
 	public function __construct($height = 1) {
 		$this->height = $height;
 	}
+
+	public function setHeight($height){
+		$this->height = $height;
+	}
 }
 ?>
