@@ -8,4 +8,8 @@ interface Animals {
 interface Bird {
 	public function Fly();
 }
+
+interface Fish {
+	public function Swim();
+}
 ?>
