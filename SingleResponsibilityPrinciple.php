@@ -24,4 +24,8 @@ class Student {
 		return $this->age;
 	}
 }
+
+class MySayName extends Student {
+	
+}
 ?>
