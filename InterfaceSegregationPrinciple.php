@@ -17,5 +17,9 @@ class Dog implements Animals {
 	public function Eat() {
 		echo "Dog ate";
 	}
+
+	public function Drink() {
+		echo "Dog drank";
+	}
 }
 ?>
