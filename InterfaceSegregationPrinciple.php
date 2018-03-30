@@ -4,4 +4,8 @@ interface Animals {
 	public function Drink();
 	public function Sleep();
 }
+
+interface Bird {
+	public function Fly();
+}
 ?>
