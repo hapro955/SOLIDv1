@@ -12,4 +12,8 @@ interface Bird {
 interface Fish {
 	public function Swim();
 }
+
+class Dog implements Animals {
+	
+}
 ?>
