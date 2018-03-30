@@ -31,4 +31,7 @@ class MySayName extends Student {
 	}
 }
 
+class MySayAge extends Student {
+	
+}
 ?>
