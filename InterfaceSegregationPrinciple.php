@@ -14,6 +14,8 @@ interface Fish {
 }
 
 class Dog implements Animals {
-	
+	public function Eat() {
+		echo "Dog ate";
+	}
 }
 ?>
