@@ -1,11 +1,9 @@
 <?php
-	class Student {
-		protected $name;
-		protected $age;
-		
-	}
-
-	public function __construct($name = "", $age = "") {
+class Student {
+	protected $name;
+	protected $age;
+	
+	public function __construct($name = "student", $age = "18") {
 		$this->name = $name;
 		$this->age = $age;
 	}
@@ -25,4 +23,5 @@
 	public function getAge() {
 		return $this->age;
 	}
+}
 ?>
