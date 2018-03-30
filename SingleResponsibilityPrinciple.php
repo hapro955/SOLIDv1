@@ -26,6 +26,9 @@ class Student {
 }
 
 class MySayName extends Student {
-	
+	public function DisplayName() {
+		echo "Name: ".$this->getName()."\n";
+	}
 }
+
 ?>
