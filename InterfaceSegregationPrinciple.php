@@ -35,5 +35,9 @@ class Eagle implements Animals, Bird {
 	public function Sleep() {
 		echo "eagle sleep";
 	}
+
+	public function Fly() {
+		echo "eagle fly";
+	}
 }
 ?>
