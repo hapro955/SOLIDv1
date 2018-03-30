@@ -53,4 +53,12 @@ class Rectangle extends Shape {
 	}
 }
 
+$square = new Square();
+$square->setHeight(10);
+echo "Area square: ".$square->Area()."\n";
+
+$rectangle = new Rectangle();
+$rectangle->setLength(10);
+$rectangle->setWidth(12);
+echo "Area rectangle: ".$rectangle->Area()."\n";
 ?>
