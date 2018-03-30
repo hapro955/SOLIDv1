@@ -28,6 +28,8 @@ class Dog implements Animals {
 }
 
 class Eagle implements Animals, Bird {
-	
+	public function Eat() {
+		echo "Eagle ate";
+	}
 }
 ?>
