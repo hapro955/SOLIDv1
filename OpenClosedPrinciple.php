@@ -39,6 +39,14 @@ class Rectangle extends Shape {
 	public function getWidth() {
 		return $this->width;
 	}
+
+	public function setLength($length) {
+		$this->length = $length;
+	}
+
+	public function getLength() {
+		return $this->length;
+	}
 }
 
 ?>
