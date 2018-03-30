@@ -47,6 +47,10 @@ class Rectangle extends Shape {
 	public function getLength() {
 		return $this->length;
 	}
+
+	public function Area() {
+		return $this->width*$this->length;
+	}
 }
 
 ?>
