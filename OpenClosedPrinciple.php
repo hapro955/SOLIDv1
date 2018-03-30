@@ -24,7 +24,13 @@ class Square extends Shape {
 }
 
 class Rectangle extends Shape {
-	
+	protected $width;
+	protected $length;
+
+	public function __construct($width = 1, $length = 1) {
+		$this->width = $width;
+		$this->length = $length;
+	}
 }
 
 ?>
