@@ -33,7 +33,16 @@ class MySayName extends Student {
 
 class MySayAge extends Student {
 	public function DisplayAge() {
-		echo "Age: ".$this->getAge()."\n"};
+		echo "Age: ".$this->getAge()."\n";
 	}
 }
+
+$studentName = new MySayName();
+$studentName->setName('Ha');
+$studentName->DisplayName();
+
+$studentAge = new MySayAge();
+$studentAge->setAge(23);
+$studentAge->DisplayAge();
+
 ?>
