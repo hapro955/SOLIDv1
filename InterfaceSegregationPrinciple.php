@@ -26,4 +26,8 @@ class Dog implements Animals {
 		echo "Dog sleep";
 	}
 }
+
+class Eagle implements Animals, Bird {
+	
+}
 ?>
