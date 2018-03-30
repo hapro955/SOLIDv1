@@ -17,5 +17,10 @@ class Square extends Shape {
 	public function getHeight() {
 		return $this->height;
 	}
+
+	public function Area() {
+		return $this->height*$this->height;
+	}
 }
+
 ?>
