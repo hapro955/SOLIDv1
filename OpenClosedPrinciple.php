@@ -10,8 +10,12 @@ class Square extends Shape {
 		$this->height = $height;
 	}
 
-	public function setHeight($height){
+	public function setHeight($height) {
 		$this->height = $height;
+	}
+
+	public function getHeight() {
+		return $this->height;
 	}
 }
 ?>
