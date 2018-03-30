@@ -1,6 +1,6 @@
 <?php
 class Shape {
-
+	public function Area() {}
 }
 
 class Square extends Shape {
