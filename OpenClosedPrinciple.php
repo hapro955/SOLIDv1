@@ -23,4 +23,8 @@ class Square extends Shape {
 	}
 }
 
+class Rectangle extends Shape {
+	
+}
+
 ?>
